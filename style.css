@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#advice {
+  quotes: '"' '"';
+}
+
+#advice::before {
+  content: open-quote;
+}
+
+#advice::after {
+  content: close-quote;
+}
+
+button:hover {
+  box-shadow: 0 0 40px hsl(150deg 100% 66%);
+}
